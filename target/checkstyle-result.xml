@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
 <file name="C:\Users\scarlet Espinoza\Desktop\CodingStandards\src\main\java\labcodingstandards\Calculator.java">
+<error line="56" severity="error" message="&apos;final&apos; has incorrect indentation level 0, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" severity="error" message="&apos;block&apos; child has incorrect indentation level 0, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="74" severity="error" message="&apos;method def&apos; child has incorrect indentation level 0, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
 </checkstyle>
