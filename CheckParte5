@@ -15,5 +15,12 @@ chequea
     <module name="MissingJavadocMethod"/>
     <module name="Indentation"/>
     <module name="SuppressionCommentFilter"/>
+    <module name="WhitespaceAfter">
+      <property name="tokens" value="COMMA,SEMI"/>
+    </module>
+    <module name="MethodName">
+      <property name="format" value="^[a-z][a-zA-Z0-9_]*$"/>
+    </module>
+    <module name="JavadocMethod"/>
   </module>
 </module>

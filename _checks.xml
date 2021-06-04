@@ -20,6 +20,5 @@
 		<module name="JavadocType">
 			<property name="authorFormat" value="\S" />
 		</module>
-		
 	</module>
 </module> 
