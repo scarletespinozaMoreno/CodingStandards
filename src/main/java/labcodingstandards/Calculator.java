@@ -53,7 +53,7 @@ public static void main(final String[] args) {
  * @return result
  */
     private String operation(final char operator,
-final double first, final double second) {
+        final double first, final double second) {
         double result = 0;
         switch (operator) {
             case '1':
@@ -69,8 +69,8 @@ final double first, final double second) {
                 result = first / second;
                 break;
             default:
-return "Error! operator is not correct";
+                return "Error! operator is not correct";
         }
-return "The result is:" + result;
+        return "The result is:" + result;
     }
 }
